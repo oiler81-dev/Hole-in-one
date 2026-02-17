@@ -1,0 +1,801 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#f6f8fc" />
+  <title>Hole in One Bar & Grill | Montebello, CA</title>
+  <meta name="description" content="Hole in One Bar & Grill in Montebello — pizza, wings, drinks, patio, live music & entertainment. Address, hours, and menu." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- IMPORTANT: your file is style.css (singular) -->
+  <link rel="stylesheet" href="./style.css?v=1" />
+</head>
+
+<body>
+  <!-- Top Notice -->
+  <div class="topbar" role="note" aria-label="Announcement">
+    <div class="container topbar__inner">
+      <span class="pill">Montebello</span>
+      <span class="topbar__text">Patio • Live music & entertainment • Catering & private events</span>
+      <a class="topbar__link" href="#contact">Get Directions</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Hole in One home">
+        <span class="brand__mark" aria-hidden="true">⛳</span>
+        <span class="brand__text">
+          <span class="brand__name">Hole in One</span>
+          <span class="brand__sub">Bar & Grill • Montebello</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="sr-only">Open menu</span>
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+
+        <div class="nav__menu" id="navMenu">
+          <a class="nav__link" href="#about">About</a>
+          <a class="nav__link" href="#menu">Menu</a>
+          <a class="nav__link" href="#drinks">Drinks</a>
+          <a class="nav__link" href="#events">Events</a>
+          <a class="nav__link" href="#gallery">Gallery</a>
+          <a class="nav__link" href="#contact">Contact</a>
+
+          <div class="nav__actions">
+            <button class="btn btn--ghost" id="themeToggle" type="button" aria-label="Toggle theme">
+              <span class="icon" aria-hidden="true">☀️</span>
+              <span class="btn__text">Light</span>
+            </button>
+            <a class="btn btn--primary" href="#menu">View Menu</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__copy">
+        <div class="hero__eyebrow">
+          <span class="dot"></span>
+          Pizza • Wings • Drinks • Patio • Live music
+        </div>
+
+        <h1 class="hero__title">
+          Meet me at the
+          <span class="grad">Hole in One</span>.
+        </h1>
+
+        <p class="hero__lead">
+          A Montebello staple built for good nights: fresh pizzas, wings, cold drinks,
+          and space to hang out—inside or on the patio. Perfect for game days, birthdays,
+          and casual meetups.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary btn--lg" href="#menu">Explore Food</a>
+          <a class="btn btn--soft btn--lg" href="#contact">Directions</a>
+        </div>
+
+        <div class="hero__meta">
+          <div class="metaCard">
+            <div class="metaCard__k">Status</div>
+            <div class="metaCard__v" id="openNowText">Checking…</div>
+          </div>
+          <div class="metaCard">
+            <div class="metaCard__k">Hours</div>
+            <div class="metaCard__v">Mon–Sun 11AM–2AM</div>
+          </div>
+          <div class="metaCard">
+            <div class="metaCard__k">NFL Sundays</div>
+            <div class="metaCard__v">10AM–2AM</div>
+          </div>
+        </div>
+
+        <div class="quickFacts">
+          <div class="qf">
+            <div class="qf__k">Address</div>
+            <div class="qf__v">886 N Garfield Ave, Montebello, CA 90640</div>
+          </div>
+          <div class="qf">
+            <div class="qf__k">Phone</div>
+            <div class="qf__v"><a class="inlineLink" href="tel:+13234771345">(323) 477-1345</a></div>
+          </div>
+          <div class="qf">
+            <div class="qf__k">Email</div>
+            <div class="qf__v"><a class="inlineLink" href="mailto:info@holeinonemontebello.com">info@holeinonemontebello.com</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__visual" aria-hidden="true">
+        <div class="glassCard">
+          <div class="glassCard__top">
+            <div class="miniBadge">Tonight</div>
+            <div class="sparkle">✦</div>
+          </div>
+
+          <div class="glassCard__title">Game • Pizza • Patio</div>
+          <div class="glassCard__desc">Pull up with friends. Order a specialty pie and settle in.</div>
+
+          <div class="glassCard__list">
+            <div class="item">
+              <div class="item__dot"></div>
+              <div class="item__text">
+                <div class="item__t">Specialty Pizzas</div>
+                <div class="item__s">Small / Medium / Large pricing</div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item__dot"></div>
+              <div class="item__text">
+                <div class="item__t">Wings</div>
+                <div class="item__s">Boneless or bone-in • multiple sauces</div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item__dot"></div>
+              <div class="item__text">
+                <div class="item__t">Pitchers • Buckets • Towers</div>
+                <div class="item__s">Perfect for groups</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="glassCard__bottom">
+            <a class="inlineLink" href="#menu">Jump to menu →</a>
+            <span class="tiny">Updated prices on-site</span>
+          </div>
+        </div>
+
+        <div class="hero__bg"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="marquee" aria-label="Quick facts">
+        <div class="marquee__track">
+          <span>Live music & entertainment</span>
+          <span>Patio + dining room</span>
+          <span>Catering for occasions</span>
+          <span>Private parties</span>
+          <span>Sports nights</span>
+          <span>Late hours</span>
+          <span>Live music & entertainment</span>
+          <span>Patio + dining room</span>
+          <span>Catering for occasions</span>
+          <span>Private parties</span>
+          <span>Sports nights</span>
+          <span>Late hours</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="sectionHead">
+        <h2>About</h2>
+        <p>
+          Hole in One Bar & Grill is a Montebello hangout with food that hits, drinks that land,
+          and space for your people—patio, dining room, and events throughout the year.
+        </p>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>What we’re about</h3>
+          <ul class="bullets">
+            <li>Fresh pizzas (cheese, toppings, specialty pies)</li>
+            <li>Wings + sides</li>
+            <li>Pitchers, buckets, towers for groups</li>
+            <li>Live entertainment + private events</li>
+          </ul>
+          <div class="card__note">Need catering or a private party setup? Hit the event request form below.</div>
+        </div>
+
+        <div class="card card--soft">
+          <h3>Fast info</h3>
+          <div class="kv">
+            <div class="kv__row">
+              <div class="kv__k">Address</div>
+              <div class="kv__v">886 N Garfield Ave</div>
+            </div>
+            <div class="kv__row">
+              <div class="kv__k">City</div>
+              <div class="kv__v">Montebello, CA 90640</div>
+            </div>
+            <div class="kv__row">
+              <div class="kv__k">Phone</div>
+              <div class="kv__v">(323) 477-1345</div>
+            </div>
+            <div class="kv__row">
+              <div class="kv__k">Email</div>
+              <div class="kv__v">info@holeinonemontebello.com</div>
+            </div>
+          </div>
+
+          <div class="chipRow">
+            <span class="chip">Patio</span>
+            <span class="chip">Live Music</span>
+            <span class="chip">Catering</span>
+            <span class="chip">Late Hours</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="section section--alt" id="menu">
+    <div class="container">
+      <div class="sectionHead">
+        <h2>Menu</h2>
+        <p>Pizza pricing + specialty pizzas, plus wings and sides. Use the filters.</p>
+      </div>
+
+      <div class="menuShell">
+        <div class="tabs" role="tablist" aria-label="Menu categories">
+          <button class="tab is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="tab" data-filter="pizza" role="tab" aria-selected="false">Pizza</button>
+          <button class="tab" data-filter="specialty" role="tab" aria-selected="false">Specialty Pizzas</button>
+          <button class="tab" data-filter="wings" role="tab" aria-selected="false">Wings</button>
+          <button class="tab" data-filter="sides" role="tab" aria-selected="false">Sides</button>
+          <button class="tab" data-filter="dessert" role="tab" aria-selected="false">Dessert</button>
+        </div>
+
+        <div class="menuGrid" id="menuGrid">
+          <!-- Pizza basics -->
+          <article class="menuItem" data-type="pizza">
+            <div class="menuItem__top">
+              <h3>Cheese Pizza</h3>
+              <span class="price">S $9.75 • M $11.75 • L $12.75</span>
+            </div>
+            <p>Fresh dough, zesty tomato sauce, mozzarella.</p>
+            <div class="tags"><span>8/10/12 slices</span><span>Serves 2–5</span></div>
+          </article>
+
+          <article class="menuItem" data-type="pizza">
+            <div class="menuItem__top">
+              <h3>Additional Toppings</h3>
+              <span class="price">+1.50 • +2.00 • +2.60</span>
+            </div>
+            <p>Add toppings by size (Small / Medium / Large).</p>
+            <div class="tags"><span>Meat</span><span>Veggie</span></div>
+          </article>
+
+          <article class="menuItem" data-type="pizza">
+            <div class="menuItem__top">
+              <h3>Toppings</h3>
+              <span class="price">Build your own</span>
+            </div>
+            <p><strong>Meat:</strong> pepperoni, sausage, chorizo, pastrami, grilled chicken breast, ham, bacon</p>
+            <p><strong>Veggie:</strong> mushrooms, red onion, bell peppers, black olives, marinated tomatoes, garlic, green peppers, jalapeños, pineapple</p>
+            <div class="tags"><span>Classic</span><span>Custom</span></div>
+          </article>
+
+          <!-- Specialty pizzas -->
+          <article class="menuItem" data-type="specialty">
+            <div class="menuItem__top">
+              <h3>Supreme Special</h3>
+              <span class="price">S $20 • M $23 • L $27</span>
+            </div>
+            <p>Sausage, pepperoni, mushrooms, red onion, bell pepper, bacon & mozzarella.</p>
+            <div class="tags"><span>Specialty</span><span>Loaded</span></div>
+          </article>
+
+          <article class="menuItem" data-type="specialty">
+            <div class="menuItem__top">
+              <h3>Meat Lovers</h3>
+              <span class="price">S $19 • M $23 • L $27</span>
+            </div>
+            <p>Sausage, pepperoni, bacon & chorizo.</p>
+            <div class="tags"><span>Specialty</span><span>Meat</span></div>
+          </article>
+
+          <article class="menuItem" data-type="specialty">
+            <div class="menuItem__top">
+              <h3>Veggie Special</h3>
+              <span class="price">S $18 • M $20 • L $23</span>
+            </div>
+            <p>Diced tomatoes, mushrooms, black olives, red onions, bell peppers & mozzarella.</p>
+            <div class="tags"><span>Specialty</span><span>Veggie</span></div>
+          </article>
+
+          <article class="menuItem" data-type="specialty">
+            <div class="menuItem__top">
+              <h3>BBQ Chicken</h3>
+              <span class="price">S $19 • M $23 • L $25</span>
+            </div>
+            <p>Chicken, bell peppers, onions, BBQ sauce & mozzarella.</p>
+            <div class="tags"><span>Specialty</span><span>BBQ</span></div>
+          </article>
+
+          <article class="menuItem" data-type="specialty">
+            <div class="menuItem__top">
+              <h3>Buffalo Chicken</h3>
+              <span class="price">S $20 • M $23 • L $27</span>
+            </div>
+            <p>Boneless buffalo wings, buffalo sauce, cheese, chopped celery, red onions, ranch.</p>
+            <div class="tags"><span>Specialty</span><span>Spicy</span></div>
+          </article>
+
+          <article class="menuItem" data-type="specialty">
+            <div class="menuItem__top">
+              <h3>Hawaiian</h3>
+              <span class="price">S $19 • M $23 • L $25</span>
+            </div>
+            <p>Ham, pineapple, mozzarella.</p>
+            <div class="tags"><span>Specialty</span><span>Sweet/Salty</span></div>
+          </article>
+
+          <article class="menuItem" data-type="specialty">
+            <div class="menuItem__top">
+              <h3>Chicken Alfredo</h3>
+              <span class="price">S $21 • M $23 • L $27</span>
+            </div>
+            <p>Chicken, bacon bits, alfredo sauce & mozzarella.</p>
+            <div class="tags"><span>Specialty</span><span>Creamy</span></div>
+          </article>
+
+          <article class="menuItem" data-type="specialty">
+            <div class="menuItem__top">
+              <h3>South of the Border</h3>
+              <span class="price">S $19 • M $23 • L $24</span>
+            </div>
+            <p>Refried beans, jalapeños, mozzarella. Choice of bacon or chorizo.</p>
+            <div class="tags"><span>Specialty</span><span>Kick</span></div>
+          </article>
+
+          <article class="menuItem" data-type="specialty">
+            <div class="menuItem__top">
+              <h3>Pastrami Pizza</h3>
+              <span class="price">S $19 • M $23 • L $25</span>
+            </div>
+            <p>Pastrami, pickles, mustard & mozzarella.</p>
+            <div class="tags"><span>Specialty</span><span>Unique</span></div>
+          </article>
+
+          <!-- Wings -->
+          <article class="menuItem" data-type="wings">
+            <div class="menuItem__top">
+              <h3>Wings (6 pc)</h3>
+              <span class="price">$13</span>
+            </div>
+            <p>Boneless or bone-in. Includes ranch or blue cheese, carrots & celery.</p>
+            <div class="tags"><span>Mild → Hot</span><span>Many sauces</span></div>
+          </article>
+
+          <article class="menuItem" data-type="wings">
+            <div class="menuItem__top">
+              <h3>Wings (12 pc)</h3>
+              <span class="price">$24</span>
+            </div>
+            <p>Boneless or bone-in. Includes ranch or blue cheese, carrots & celery.</p>
+            <div class="tags"><span>Shareable</span><span>Game night</span></div>
+          </article>
+
+          <article class="menuItem" data-type="wings">
+            <div class="menuItem__top">
+              <h3>Wings (24 pc)</h3>
+              <span class="price">$36</span>
+            </div>
+            <p>Boneless or bone-in. Includes ranch or blue cheese, carrots & celery.</p>
+            <div class="tags"><span>Group</span><span>Big</span></div>
+          </article>
+
+          <article class="menuItem" data-type="wings">
+            <div class="menuItem__top">
+              <h3>Wings (36 pc)</h3>
+              <span class="price">$50</span>
+            </div>
+            <p>Boneless or bone-in. Includes ranch or blue cheese, carrots & celery.</p>
+            <div class="tags"><span>Party</span><span>Huge</span></div>
+          </article>
+
+          <!-- Sides -->
+          <article class="menuItem" data-type="sides">
+            <div class="menuItem__top">
+              <h3>Waffle Fries</h3>
+              <span class="price">$8</span>
+            </div>
+            <p>Crispy, shareable.</p>
+            <div class="tags"><span>Side</span></div>
+          </article>
+
+          <article class="menuItem" data-type="sides">
+            <div class="menuItem__top">
+              <h3>Onion Rings</h3>
+              <span class="price">$8</span>
+            </div>
+            <p>Classic bar side.</p>
+            <div class="tags"><span>Side</span></div>
+          </article>
+
+          <article class="menuItem" data-type="sides">
+            <div class="menuItem__top">
+              <h3>Steak Fries</h3>
+              <span class="price">$8</span>
+            </div>
+            <p>Thick cut.</p>
+            <div class="tags"><span>Side</span></div>
+          </article>
+
+          <article class="menuItem" data-type="sides">
+            <div class="menuItem__top">
+              <h3>Potato Wedges</h3>
+              <span class="price">$8</span>
+            </div>
+            <p>Seasoned wedges.</p>
+            <div class="tags"><span>Side</span></div>
+          </article>
+
+          <article class="menuItem" data-type="sides">
+            <div class="menuItem__top">
+              <h3>Tater Tots</h3>
+              <span class="price">$8</span>
+            </div>
+            <p>Always a win.</p>
+            <div class="tags"><span>Side</span></div>
+          </article>
+
+          <article class="menuItem" data-type="sides">
+            <div class="menuItem__top">
+              <h3>Garden Salad</h3>
+              <span class="price">$5</span>
+            </div>
+            <p>Light option.</p>
+            <div class="tags"><span>Side</span></div>
+          </article>
+
+          <article class="menuItem" data-type="sides">
+            <div class="menuItem__top">
+              <h3>Vegetables</h3>
+              <span class="price">$5</span>
+            </div>
+            <p>Simple and clean.</p>
+            <div class="tags"><span>Side</span></div>
+          </article>
+
+          <article class="menuItem" data-type="sides">
+            <div class="menuItem__top">
+              <h3>Coleslaw</h3>
+              <span class="price">$3</span>
+            </div>
+            <p>Classic.</p>
+            <div class="tags"><span>Side</span></div>
+          </article>
+
+          <article class="menuItem" data-type="sides">
+            <div class="menuItem__top">
+              <h3>Baked Potato</h3>
+              <span class="price">$5</span>
+            </div>
+            <p>Comfort side.</p>
+            <div class="tags"><span>Side</span></div>
+          </article>
+
+          <article class="menuItem" data-type="sides">
+            <div class="menuItem__top">
+              <h3>Mashed Potato</h3>
+              <span class="price">$4</span>
+            </div>
+            <p>Comfort side.</p>
+            <div class="tags"><span>Side</span></div>
+          </article>
+
+          <!-- Dessert (from your photo) -->
+          <article class="menuItem" data-type="dessert">
+            <div class="menuItem__top">
+              <h3>Brownie À La Mode</h3>
+              <span class="price">$8</span>
+            </div>
+            <p>Topped with vanilla ice cream & chocolate syrup.</p>
+            <div class="tags"><span>Dessert</span></div>
+          </article>
+
+          <article class="menuItem" data-type="dessert">
+            <div class="menuItem__top">
+              <h3>Vanilla Ice Cream</h3>
+              <span class="price">$4</span>
+            </div>
+            <p>Classic scoop.</p>
+            <div class="tags"><span>Dessert</span></div>
+          </article>
+
+          <article class="menuItem" data-type="dessert">
+            <div class="menuItem__top">
+              <h3>Strawberry Ice Cream</h3>
+              <span class="price">$4</span>
+            </div>
+            <p>Classic scoop.</p>
+            <div class="tags"><span>Dessert</span></div>
+          </article>
+
+          <article class="menuItem" data-type="dessert">
+            <div class="menuItem__top">
+              <h3>Chocolate Ice Cream</h3>
+              <span class="price">$4</span>
+            </div>
+            <p>Classic scoop.</p>
+            <div class="tags"><span>Dessert</span></div>
+          </article>
+        </div>
+
+        <div class="menuFoot">
+          <div class="note">
+            Prices shown are for quick reference. For the latest, confirm with staff.
+          </div>
+          <a class="btn btn--soft" href="#contact">Call to confirm</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DRINKS -->
+  <section class="section" id="drinks">
+    <div class="container">
+      <div class="sectionHead">
+        <h2>Drinks</h2>
+        <p>Group-friendly options: pitchers, buckets, towers + non-alcoholic drinks.</p>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Non-alcoholic</h3>
+          <div class="miniMenu">
+            <div class="miniRow"><strong>Fountain</strong><span>$4</span></div>
+            <div class="miniRow muted"><span>Coke • Diet • Sprite • Dr Pepper • Lemonade • Raspberry • Iced Tea • Unsweetened Iced Tea • Coffee • Hot Tea</span></div>
+            <div class="miniRow"><strong>Juice</strong><span>$5</span></div>
+            <div class="miniRow muted"><span>Cranberry • Orange</span></div>
+          </div>
+
+          <div class="divider"></div>
+
+          <h3>Pitcher</h3>
+          <div class="miniMenu">
+            <div class="miniRow"><strong>Domestic</strong><span>$19</span></div>
+            <div class="miniRow"><strong>Import</strong><span>$20</span></div>
+            <div class="miniRow"><strong>IPA</strong><span>$22</span></div>
+          </div>
+        </div>
+
+        <div class="card card--soft">
+          <h3>Bucket / Tower</h3>
+          <div class="miniMenu">
+            <div class="miniRow"><strong>Bucket — Domestic</strong><span>$25</span></div>
+            <div class="miniRow"><strong>Bucket — Import</strong><span>$30</span></div>
+            <div class="miniRow"><strong>Bucket — IPA</strong><span>$40</span></div>
+            <div class="divider"></div>
+            <div class="miniRow"><strong>Tower — Domestic</strong><span>$35</span></div>
+            <div class="miniRow"><strong>Tower — Import</strong><span>$40</span></div>
+            <div class="miniRow"><strong>Tower — IPA</strong><span>$43</span></div>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="card__note">
+            Best move for groups: tower + wings + a specialty pizza.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events -->
+  <section class="section section--alt" id="events">
+    <div class="container">
+      <div class="sectionHead">
+        <h2>Events & Catering</h2>
+        <p>Private parties, business events, community gatherings, and family celebrations.</p>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Book the space</h3>
+          <p class="muted">
+            Patio and dining room options available. Tell us what you’re planning and we’ll point you to the best setup.
+          </p>
+
+          <div class="divider"></div>
+
+          <details class="faq">
+            <summary>What should I include in the request?</summary>
+            <p>Date/time, headcount, whether you want patio or indoor, and any food/drink expectations.</p>
+          </details>
+
+          <details class="faq">
+            <summary>NFL Sunday?</summary>
+            <p>Doors open at 10AM on NFL Sundays.</p>
+          </details>
+        </div>
+
+        <div class="card card--soft">
+          <h3>Event request</h3>
+          <form class="form" id="eventForm">
+            <div class="form__row">
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Your name" required />
+              </label>
+              <label>
+                <span>Group size</span>
+                <input type="number" name="size" placeholder="e.g., 12" min="2" required />
+              </label>
+            </div>
+
+            <label>
+              <span>Details</span>
+              <textarea name="details" placeholder="Date/time, patio vs indoor, any requests" rows="4" required></textarea>
+            </label>
+
+            <div class="form__actions">
+              <button class="btn btn--primary" type="submit">Send request</button>
+              <div class="form__hint">Opens your email client (no backend needed).</div>
+            </div>
+          </form>
+
+          <div class="miniCall">
+            <div class="miniCall__k">Prefer to call?</div>
+            <div class="miniCall__v"><a class="inlineLink" href="tel:+13234771345">(323) 477-1345</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="sectionHead">
+        <h2>Gallery</h2>
+        <p>Replace these with real photos anytime. Clicking opens a preview.</p>
+      </div>
+
+      <div class="gallery" id="galleryGrid">
+        <button class="shot" data-img="./assets/gallery-1.jpg" data-alt="Bar and seating area">
+          <span class="shot__label">Interior</span>
+        </button>
+        <button class="shot" data-img="./assets/gallery-2.jpg" data-alt="Pizza close-up">
+          <span class="shot__label">Pizza</span>
+        </button>
+        <button class="shot" data-img="./assets/gallery-3.jpg" data-alt="Wings and sides">
+          <span class="shot__label">Wings</span>
+        </button>
+        <button class="shot" data-img="./assets/gallery-4.jpg" data-alt="Patio vibes">
+          <span class="shot__label">Patio</span>
+        </button>
+      </div>
+
+      <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-label="Image preview">
+        <div class="modal__backdrop" data-close="true"></div>
+        <div class="modal__panel" role="document">
+          <button class="modal__close" data-close="true" aria-label="Close preview">✕</button>
+          <img id="modalImg" alt="" />
+          <div class="modal__caption" id="modalCap"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section--alt" id="contact">
+    <div class="container">
+      <div class="sectionHead">
+        <h2>Contact & Hours</h2>
+        <p>Call, email, or get directions in one click.</p>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Contact</h3>
+
+          <div class="contactGrid">
+            <div class="contactRow">
+              <div class="contactRow__k">Phone</div>
+              <div class="contactRow__v">
+                <a class="inlineLink" href="tel:+13234771345">(323) 477-1345</a>
+              </div>
+            </div>
+            <div class="contactRow">
+              <div class="contactRow__k">Address</div>
+              <div class="contactRow__v">
+                886 N Garfield Ave, Montebello, CA 90640
+              </div>
+            </div>
+            <div class="contactRow">
+              <div class="contactRow__k">Email</div>
+              <div class="contactRow__v">
+                <a class="inlineLink" href="mailto:info@holeinonemontebello.com">info@holeinonemontebello.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+
+          <h3>Hours</h3>
+          <div class="hours" id="hoursList"></div>
+
+          <div class="divider"></div>
+
+          <div class="actionsRow">
+            <a class="btn btn--primary" href="https://www.google.com/maps/search/?api=1&query=886%20N%20Garfield%20Ave%20Montebello%20CA%2090640" target="_blank" rel="noreferrer">
+              Open in Maps
+            </a>
+            <a class="btn btn--ghost" href="#top">Back to top</a>
+          </div>
+        </div>
+
+        <div class="card card--soft">
+          <h3>Quick message</h3>
+          <p class="muted">This opens your email client with the message pre-filled.</p>
+
+          <form class="form" id="contactForm">
+            <label>
+              <span>Your name</span>
+              <input type="text" name="name" placeholder="Name" required />
+            </label>
+
+            <label>
+              <span>Your email</span>
+              <input type="email" name="email" placeholder="you@email.com" required />
+            </label>
+
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="5" placeholder="What can we help with?" required></textarea>
+            </label>
+
+            <div class="form__actions">
+              <button class="btn btn--primary" type="submit">Send</button>
+              <div class="form__hint">Email goes to info@holeinonemontebello.com</div>
+            </div>
+          </form>
+
+          <div class="mapShell" aria-label="Map">
+            <iframe
+              title="Map"
+              class="mapFrame"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=886%20N%20Garfield%20Ave%20Montebello%20CA%2090640&output=embed">
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__left">
+          <div class="footer__brand">
+            <span class="brand__mark">⛳</span>
+            <span>Hole in One Bar & Grill</span>
+          </div>
+          <div class="footer__small muted">
+            © <span id="year"></span> Hole in One. All rights reserved.
+          </div>
+        </div>
+
+        <div class="footer__right">
+          <a class="footer__link" href="#menu">Menu</a>
+          <a class="footer__link" href="#drinks">Drinks</a>
+          <a class="footer__link" href="#events">Events</a>
+          <a class="footer__link" href="#contact">Contact</a>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <script src="./app.js?v=1" defer></script>
+</body>
+</html>
